@@ -14,6 +14,7 @@ const Home = () => {
 			} else{
 				setListaTareas([...listaTareas, tareas]);
 				setMensaje("visually-hidden");
+				setTareas("");
 			}
 		}
 	}
